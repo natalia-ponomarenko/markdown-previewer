@@ -1,3 +1,5 @@
+import '../styles/components/Editor.scss';
+
 function Editor({ content, setContent }) {
 
   const handleContentChange = (event) => {
@@ -10,8 +12,6 @@ function Editor({ content, setContent }) {
       id="editor"
       value={content}
       onChange={handleContentChange}
-      cols="30"
-      rows="10"
     ></textarea>
   );
 }

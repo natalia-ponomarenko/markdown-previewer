@@ -1,0 +1,11 @@
+#preview {
+  background-color:bisque;
+}
+
+#preview pre,
+#preview code {
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
