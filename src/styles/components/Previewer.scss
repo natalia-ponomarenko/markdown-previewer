@@ -1,11 +1,29 @@
+@import '../mixins.scss';
+
 #preview {
-  background-color:bisque;
+  @include preview-window;
+
+  & pre,
+  & code {
+    background: bisque;
+    padding: 5px;
+    line-height: 1.2;
+  }
+
+  & table,
+  & th,
+  & td,
+  & tbody {
+    border: 1px solid black;
+  }
 }
 
-#preview pre,
-#preview code {
-  overflow: auto;
-  background: white;
-  padding: 5px;
-  line-height: 1.2;
+.toolbar {
+  @include toolbar;
+}
+
+@media screen and (max-width: 1000px) {
+  #preview {
+    @include preview-mindow-mobile;
+  }
 }
