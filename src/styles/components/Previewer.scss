@@ -1,25 +1,34 @@
 @import '../mixins.scss';
+@import '../variables.scss';
+
 
 #preview {
   @include preview-window;
 
   & pre,
   & code {
-    background: bisque;
+    background-color: $accent-color;
     padding: 5px;
     line-height: 1.2;
   }
 
   & table,
-  & th,
   & td,
-  & tbody {
-    border: 1px solid black;
+  & th {
+    border: 1px solid $base-color;
+    margin: 0;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+  & th,
+  & td {
+    background-color: $accent-color;
   }
 }
 
-.toolbar {
-  @include toolbar;
+.heading {
+  @include heading;
 }
 
 @media screen and (max-width: 1000px) {

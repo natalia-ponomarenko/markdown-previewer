@@ -21,8 +21,7 @@
   max-height: 400px;
 }
 
-@mixin toolbar {
-  height: 36px;
+@mixin heading {
   font-size: 26px;
   font-weight: bold;
 }

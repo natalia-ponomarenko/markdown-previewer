@@ -9,8 +9,8 @@ textarea {
   @include preview-window;
 }
 
-.toolbar {
-  @include toolbar;
+.heading {
+  @include heading;
 }
 
 @media screen and (max-width: 1000px) {

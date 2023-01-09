@@ -23,7 +23,7 @@ const createMarkUp = (val) => {
 function Previewer({ content }) {
   return (
     <div className="wrapper">
-      <div className="toolbar">Previewer</div>
+      <div className="heading">Previewer</div>
       <div id="preview" dangerouslySetInnerHTML={createMarkUp(content)} />
     </div>
   );
