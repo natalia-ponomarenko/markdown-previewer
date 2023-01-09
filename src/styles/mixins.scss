@@ -9,7 +9,7 @@
   overflow: hidden;
   overflow-y: scroll;
   max-height: 75vh;
-  height: 100%;
+  min-height: 500px;
 }
 
 @mixin preview-mindow-mobile {

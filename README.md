@@ -1,4 +1,4 @@
-# Quote Generator
+# Markdown Previewer
 
 # Description
 - Live preview markdown editor
