@@ -36,3 +36,9 @@
     @include preview-mindow-mobile;
   }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  #preview {
+    max-width: 500px;
+  }
+}

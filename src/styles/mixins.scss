@@ -8,8 +8,7 @@
   box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   overflow-y: scroll;
-  max-height: 75vh;
-  min-height: 500px;
+  height: 80vh;
 }
 
 @mixin preview-mindow-mobile {
